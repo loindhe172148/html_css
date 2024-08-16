@@ -1,0 +1,615 @@
+#site_header {
+  display: flex;
+  align-items: center;
+  padding: 50px 0px;
+  justify-content: space-around;
+}
+#main_logo img {
+  width: 100%;
+  max-width: 100%;
+}
+#menu_toggle {
+  display: none;
+  background-color: #414880;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#main_menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#main_menu ul li {
+  display: inline-block;
+}
+
+#main_menu a {
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 43px;
+  letter-spacing: 1px;
+}
+
+#main_menu a {
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 43px;
+  letter-spacing: 1px;
+}
+#home_1 {
+  color: #414880;
+}
+.home_2 {
+  color: #969699;
+}
+#contact_button a {
+  text-decoration: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 17px;
+  background-color: #ff64ae;
+  padding: 15px 42px 15px 42px;
+  letter-spacing: 1.5px;
+}
+#main_header {
+  padding: 150px 0px;
+  display: flex;
+  justify-content: center;
+}
+#clinic {
+  font-size: 50px;
+  line-height: 1.3;
+  color: rgb(9, 17, 86);
+  margin-bottom: 0px;
+}
+#noteclinic {
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: 1.2px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+#moredetail {
+  padding: 16px 48px;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 50px;
+  background-color: rgb(255, 100, 174);
+  color: white;
+  letter-spacing: 1.6px;
+}
+#anh2 {
+  padding-left: 40px;
+  margin-top: -23px;
+  width: 626px;
+  max-width: 100%;
+}
+#sliderbt {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+#sliderbt img {
+  width: 68px;
+  max-width: 100%;
+}
+#slider {
+  background-image: url(img/Slide\ Background.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+}
+#core_servies {
+  text-align: center;
+  margin-top: 131px;
+  justify-content: center;
+  background-size: contain;
+}
+#mainservices {
+  color: rgb(255, 113, 181);
+  font-size: 17px;
+}
+#learn {
+  color: rgb(9, 17, 86);
+  font-size: 37px;
+  line-height: 1.2;
+  margin-top: 10px;
+}
+#porta {
+  color: rgb(139, 139, 139);
+  font-size: 19px;
+  line-height: 1.4;
+  letter-spacing: 0.6px;
+  margin-top: 24px;
+}
+#box_section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+#box_section img {
+  width: 62%;
+}
+#box_section h1 {
+  font-size: 18px;
+  letter-spacing: 0.3px;
+  padding-top: 25px;
+  color: rgb(30, 37, 100);
+}
+#box_section p {
+  color: rgb(193, 193, 193);
+  font-size: 16px;
+  letter-spacing: 0.75px;
+  padding-top: 10px;
+}
+#left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 110px;
+  background-image: url("img/Box Bacground.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 100%;
+  text-align: center;
+}
+#mid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 110px;
+  background-image: url("img/Box Bacground.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 100%;
+  text-align: center;
+}
+#right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 110px;
+  background-image: url("img/Box Bacground.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 100%;
+  text-align: center;
+}
+#about_us {
+  display: flex;
+  margin-top: 67px;
+  justify-content: center;
+}
+#aboutus {
+  color: rgb(255, 146, 198);
+  margin-top: 28px;
+  font-size: 17px;
+}
+#aboutus1 {
+  margin-top: 30px;
+  font-size: 36px;
+  color: rgb(36, 43, 104);
+  letter-spacing: 0.9px;
+}
+#aboutus2 {
+  margin-top: 35px;
+  font-size: 16px;
+  line-height: 1.54;
+  color: rgb(141, 141, 141);
+  letter-spacing: 2.1px;
+}
+#aboutus3 {
+  margin-top: 28px;
+  font-size: 16px;
+  color: rgb(141, 141, 141);
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
+#aboutus4 {
+  display: flex;
+  align-items: center;
+  margin-top: 51px;
+  justify-content: space-between;
+}
+#learnmore {
+  padding: 18px 52px;
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(255, 100, 174);
+  border-radius: 50px;
+  max-width: 100%;
+  letter-spacing: 1.6px;
+}
+#playbutton {
+  margin-top: 11px;
+  max-width: 100%;
+}
+#watchvideo {
+  text-decoration: none;
+  color: rgb(139, 139, 139);
+  font-size: 17px;
+  letter-spacing: 1.8px;
+  max-width: 100%;
+}
+#anhnha {
+  width: 100%;
+}
+#content {
+  background-image: url(img/Background\ Bubble.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: 100%;
+  background-position-y: 39%;
+}
+#professsional {
+  text-align: center;
+  margin: 100px 0px;
+}
+#professsional h1 {
+  color: rgb(253, 137, 194);
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+#professsional h2 {
+  color: rgb(32, 40, 102);
+  font-size: 35.5px;
+  margin-top: 30px;
+  letter-spacing: 1px;
+}
+#professsional p {
+  color: rgb(174, 174, 174);
+  font-size: 16px;
+  margin-top: 40px;
+  letter-spacing: 2.1px;
+}
+#mentor_3 {
+  display: flex;
+  margin-top: 215px;
+  text-align: center;
+  justify-content: space-around;
+}
+#img1 {
+  width: 63%;
+  max-width: 100%;
+}
+#mentor1 h1 {
+  color: rgb(255, 100, 174);
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  margin-top: 41px;
+}
+#mentor1 h2 {
+  color: rgb(9, 17, 86);
+  font-size: 18px;
+  letter-spacing: 0.3px;
+  margin-top: 12px;
+}
+#mentor1 p {
+  color: rgb(186, 186, 186);
+  font-size: 12.5px;
+  letter-spacing: 0.6px;
+  line-height: 24px;
+}
+#mentor1 {
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Horizontally center items */
+  justify-content: center; /* Vertically center items */
+  text-align: center; /* Center align text */
+  width: 42%;
+  max-width: 100%;
+  padding: 143px 192px;
+}
+#mentor3 {
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Horizontally center items */
+  justify-content: center; /* Vertically center items */
+  text-align: center; /* Center align text */
+  width: 42%;
+  max-width: 100%;
+  padding: 143px 192px;
+}
+#mentor2 {
+  background-image: url(img/Box\ Bacground.png);
+  background-repeat: no-repeat;
+  padding: 143px 192px;
+  background-size: contain;
+  width: 42%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Horizontally center items */
+  justify-content: center; /* Vertically center items */
+  text-align: center; /* Center align text */
+  background-position: center;
+}
+#img2 {
+  width: 63%;
+  max-width: 100%;
+}
+#mentor2 h1 {
+  color: rgb(255, 100, 174);
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  margin-top: 41px;
+}
+#mentor2 h2 {
+  color: rgb(9, 17, 86);
+  font-size: 18px;
+  letter-spacing: 0.3px;
+}
+#mentor2 p {
+  color: rgb(186, 186, 186);
+  font-size: 12.5px;
+  letter-spacing: 0.6px;
+  line-height: 24px;
+  margin-top: 0px;
+}
+#img3 {
+  width: 63%;
+  max-width: 100%;
+}
+#mentor3 h1 {
+  color: rgb(255, 100, 174);
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  margin-top: 41px;
+}
+#mentor3 h2 {
+  color: rgb(9, 17, 86);
+  font-size: 18px;
+  letter-spacing: 0.3px;
+  margin-top: 12px;
+}
+#mentor3 p {
+  color: rgb(186, 186, 186);
+  font-size: 12.5px;
+  letter-spacing: 0.6px;
+  line-height: 24px;
+}
+.lienlac img {
+  width: 100%;
+  margin-top: 23px;
+}
+#contact {
+  display: flex;
+  justify-content: space-evenly;
+}
+#contact img {
+  width: 100%;
+  padding-top: 218px;
+  max-width: 100%;
+}
+#text_box {
+  margin-top: 27px;
+  justify-content: space-between;
+}
+#text_box h1 {
+  color: rgb(255, 100, 174);
+  font-size: 17px;
+  margin-top: 17px;
+}
+#text_box h2 {
+  color: rgb(9, 17, 86);
+  font-size: 38px;
+  margin-top: 7px;
+  line-height: 52px;
+  letter-spacing: -0.3px;
+}
+#text_box p {
+  color: rgb(139, 139, 139);
+  font-size: 19px;
+  letter-spacing: 0.58px;
+  margin-bottom: 50px;
+}
+#first {
+  border: 1px solid #d9ddfe;
+  border-radius: 15px;
+  padding: 21px 15px 21px 25px;
+  margin-right: 36px;
+  color: lightgray;
+  font-size: 17px;
+  letter-spacing: 2px;
+  max-width: 100%;
+}
+#last {
+  border: 1px solid #d9ddfe;
+  border-radius: 15px;
+  padding: 21px 15px 21px 25px;
+  color: lightgray;
+  font-size: 17px;
+  letter-spacing: 2.2px;
+  max-width: 100%;
+}
+#email {
+  border: 1px solid #d9ddfe;
+  border-radius: 15px;
+  padding: 23px 308px 21px 25px;
+  margin-top: 40px;
+  color: lightgray;
+  font-size: 17px;
+  letter-spacing: 2.2px;
+  max-width: 100%;
+}
+
+#subject {
+  border: 1px solid #d9ddfe;
+  border-radius: 15px;
+  padding: 23px 308px 21px 25px;
+  margin-top: 40px;
+  color: lightgray;
+  font-size: 17px;
+  letter-spacing: 2.2px;
+  max-width: 100%;
+}
+#your {
+  border: 1px solid #d9ddfe;
+  border-radius: 15px;
+  padding: 32px 308px 201px 25px;
+  margin-top: 40px;
+  color: lightgray;
+  font-size: 17px;
+  letter-spacing: 2.2px;
+  max-width: 100%;
+}
+#submit {
+  border-radius: 50px;
+  background-color: rgb(255, 100, 174);
+  border: 1px, solid, white;
+  font-size: 18px;
+  color: white;
+  padding: 21px 58px 21px 57px;
+  margin-top: 40px;
+  letter-spacing: 2px;
+}
+#contact {
+  background-image: url(img/123.png);
+  background-repeat: no-repeat;
+  width: 82%;
+  background-size: contain;
+  padding-top: 162px;
+  max-width: 100%;
+}
+#footer {
+  background-image: url(img/Footer\ BG.png);
+  background-repeat: no-repeat;
+  background-size: cover; /* Đảm bảo hình nền luôn bao phủ toàn bộ khu vực */
+  background-position: center; /* Đặt hình nền ở giữa */
+  width: 100%;
+  padding-top: 90px;
+  height: auto; /* Để chiều cao tự động điều chỉnh theo nội dung */
+  min-height: 200px; /* Đặt chiều cao tối thiểu để đảm bảo footer luôn đủ cao, bạn có thể điều chỉnh giá trị này */
+  box-sizing: border-box; /* Đảm bảo padding và border được tính vào chiều rộng và chiều cao tổng thể */
+}
+#footer1 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 50px;
+}
+#footer1 div {
+  flex: 1; /* Each column takes up equal space */
+  margin-right: 20px; /* Space between columns */
+}
+
+#footer1 div:last-child {
+  margin-right: 0; /* Remove right margin for the last column */
+}
+
+#button_row {
+  text-align: center;
+  margin-bottom: 20px; /* Space between button and end footer */
+}
+
+#end_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#end_footer .anhcuoi {
+  flex: 1;
+  margin-left: 50px;
+}
+
+#end_footer #aaaaa {
+  flex: 4;
+  text-align: right;
+  margin-right: 50px;
+}
+#anhlogocuoi {
+  width: 50%;
+  margin-top: 10px;
+}
+#footer2 {
+  font-size: 17px;
+  font-weight: 100;
+  letter-spacing: 1.5px;
+  color: white;
+  padding-left: 0px;
+}
+.footer3 {
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 1.2px;
+  color: white;
+  line-height: 15px;
+}
+#diachilienlac {
+  display: flex;
+}
+#aaaaa {
+  text-align: right;
+  font-size: 18px;
+  color: white;
+  letter-spacing: 1.2px;
+  color: white;
+}
+#bbbbb {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  width: 37px;
+  align-items: end;
+  float: right;
+  margin-right: 0px;
+}
+.anhcuoi img {
+  width: 23%;
+  max-width: 100%;
+  height: 100%;
+}
+.abcd {
+  align-items: end;
+  font-size: 19px;
+  color: white;
+  letter-spacing: 1px;
+  margin-left: 25px;
+}
+.ef {
+  list-style-image: url(img/caret-right.png);
+  font-size: 19px;
+  line-height: 1;
+  color: white;
+}
+.abcde {
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  color: white;
+  margin-left: 25px;
+}
+.efg {
+  list-style-image: url(img/caret-right.png);
+  font-size: 19px;
+  line-height: 1;
+  letter-spacing: 1px;
+  color: white;
+}
+#end_footer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

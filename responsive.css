@@ -1,0 +1,353 @@
+@media only screen and (min-width: 1024px) {
+  #footer {
+    background-size: contain;
+    padding-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #site_header {
+    display: block;
+    align-items: center;
+  }
+  #main_logo {
+    display: flex;
+    justify-content: center; /* Căn giữa logo theo chiều ngang */
+    margin-bottom: 50px;
+  }
+  #main_logo img {
+    width: 50%;
+    max-width: 100%;
+  }
+  #main_menu {
+    display: flex;
+    justify-content: center; /* Căn giữa logo theo chiều ngang */
+    margin-bottom: 50px;
+  }
+  #contact_button {
+    display: flex;
+    justify-content: center; /* Căn giữa logo theo chiều ngang */
+    margin-bottom: 50px;
+  }
+  #main_header {
+    text-align: center;
+  }
+  #box_section {
+    display: block;
+  }
+  #box_section img {
+    width: 30%;
+  }
+  #about_us {
+    text-align: center;
+    margin-left: 10px;
+  }
+  #aboutus1 {
+    font-size: 27px;
+    line-height: 1;
+    text-align: center;
+  }
+  #aboutus2 {
+    font-size: 8px;
+  }
+  #aboutus3 {
+    font-size: 8px;
+  }
+  #aboutus4 {
+    margin-top: 20px;
+    justify-content: center;
+  }
+  #learnmore {
+    padding: 8px 25px;
+    font-size: 10px;
+  }
+  #playbutton {
+    width: 69%;
+  }
+  #watchvideo {
+    font-size: 10px;
+  }
+  #mentor_3 {
+    display: block;
+  }
+  #img1 {
+    width: 20%;
+  }
+  .lienlac {
+    width: 39%;
+  }
+  #mentor2 {
+    padding: 164px 20px; /* Reduce padding for smaller screens */
+    width: 100%; /* Increase width to make better use of available space */
+    background-size: cover; /* Adjust background size */
+    margin-bottom: 50px;
+  }
+  #mentor1 {
+    padding: 164px 20px; /* Reduce padding for smaller screens */
+    width: 100%; /* Increase width to make better use of available space */
+    background-size: cover; /* Adjust background size */
+    padding-top: 0px;
+  }
+  #mentor3 {
+    padding: 164px 20px; /* Reduce padding for smaller screens */
+    width: 100%; /* Increase width to make better use of available space */
+    background-size: cover; /* Adjust background size */
+  }
+
+  #img2 {
+    width: 20%; /* Adjust image size for smaller screens */
+  }
+
+  #img2 {
+    width: 20%;
+  }
+  #img3 {
+    width: 20%;
+  }
+  #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontally center items */
+    justify-content: center; /* Vertically center items */
+    text-align: center; /* Center align text */
+    width: 100%;
+  }
+  #text_box {
+    margin-top: 0px;
+  }
+  #footer {
+    padding-bottom: 77px;
+  }
+  #footer2 {
+    font-size: 11px;
+  }
+  .footer3 {
+    font-size: 11px;
+  }
+  #anhlogocuoi {
+    width: 59%;
+  }
+  .abcd {
+    font-size: 13px;
+  }
+  .ef {
+    font-size: 13px;
+  }
+  .abcde {
+    font-size: 13px;
+  }
+  .efg {
+    font-size: 13px;
+  }
+  #aaaaa {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #menu_toggle {
+    display: block;
+  }
+
+  #nav {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+
+  #nav li {
+    display: block;
+    margin: 10px 0;
+  }
+  #site_header {
+    display: block;
+    align-items: center;
+  }
+  #main_logo {
+    display: flex;
+    justify-content: center; /* Căn giữa logo theo chiều ngang */
+    margin-bottom: 50px;
+  }
+  #main_logo img {
+    width: 50%;
+    max-width: 100%;
+  }
+  #main_menu {
+    display: flex;
+    justify-content: center; /* Căn giữa logo theo chiều ngang */
+    margin-bottom: 50px;
+  }
+  #contact img {
+    padding-top: 0px;
+  }
+  #contact_button {
+    display: flex;
+    justify-content: center; /* Căn giữa logo theo chiều ngang */
+    margin-bottom: 50px;
+  }
+  #main_header {
+    display: block;
+    text-align: center;
+  }
+  #anh2 {
+    margin-top: 50px;
+  }
+  #box_section {
+    display: block;
+  }
+  #box_section img {
+    width: 30%;
+  }
+  #about_us {
+    text-align: center;
+    display: block;
+  }
+  #aboutus1 {
+    font-size: 27px;
+    line-height: 1;
+    text-align: center;
+  }
+  #aboutus2 {
+    font-size: 8px;
+  }
+  #aboutus3 {
+    font-size: 8px;
+  }
+  #aboutus4 {
+    margin-top: 20px;
+    justify-content: center;
+  }
+  #learnmore {
+    padding: 8px 25px;
+    font-size: 10px;
+  }
+  #playbutton {
+    width: 69%;
+  }
+  #watchvideo {
+    font-size: 10px;
+  }
+  #professsional h2 {
+    font-size: 20px;
+  }
+  #mentor_3 {
+    display: block;
+  }
+  #img1 {
+    width: 20%;
+  }
+  .lienlac {
+    width: 39%;
+  }
+  #mentor2 {
+    padding: 164px 20px; /* Reduce padding for smaller screens */
+    width: 100%; /* Increase width to make better use of available space */
+    background-size: cover; /* Adjust background size */
+    margin-bottom: 50px;
+  }
+  #mentor1 {
+    padding: 164px 20px; /* Reduce padding for smaller screens */
+    width: 100%; /* Increase width to make better use of available space */
+    background-size: cover; /* Adjust background size */
+  }
+  #mentor3 {
+    padding: 164px 20px; /* Reduce padding for smaller screens */
+    width: 100%; /* Increase width to make better use of available space */
+    background-size: cover; /* Adjust background size */
+    padding-bottom: 0px;
+  }
+  #text_box h2 {
+    font-size: 26px;
+    line-height: 39px;
+  }
+  #text_box p {
+    font-size: 10px;
+  }
+  #img2 {
+    width: 20%; /* Adjust image size for smaller screens */
+  }
+
+  #img2 {
+    width: 20%;
+  }
+  #img3 {
+    width: 20%;
+  }
+  #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontally center items */
+    justify-content: center; /* Vertically center items */
+    text-align: center; /* Center align text */
+    width: 100%;
+  }
+  #text_box {
+    margin-top: 0px;
+  }
+  #footer {
+    padding-bottom: 77px;
+  }
+  #footer2 {
+    font-size: 11px;
+  }
+  .footer3 {
+    font-size: 11px;
+  }
+  #anhlogocuoi {
+    width: 59%;
+  }
+  .abcd {
+    font-size: 13px;
+  }
+  .ef {
+    font-size: 13px;
+  }
+  .abcde {
+    font-size: 13px;
+  }
+  .efg {
+    font-size: 13px;
+  }
+  #aaaaa {
+    font-size: 13px;
+  }
+  #action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #first {
+    margin-right: 0px;
+    margin-bottom: 40px;
+  }
+  #email {
+    padding: 21px 15px 21px 25px;
+  }
+  #subject {
+    padding: 21px 15px 21px 25px;
+  }
+  #your {
+    padding: 21px 15px 100px 25px;
+  }
+  #footer1 {
+    display: block;
+  }
+  #end_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #aaaaa p {
+    font-size: 15px;
+  }
+  #end_footer .anhcuoi {
+    margin-left: 0px;
+  }
+  #bbbbb img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
