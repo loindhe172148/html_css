@@ -160,6 +160,7 @@
   background-size: contain;
   height: 100%;
   text-align: center;
+  width: 100%;
 }
 #mid {
   display: flex;
@@ -173,6 +174,7 @@
   background-size: contain;
   height: 100%;
   text-align: center;
+  width: 100%;
 }
 #right {
   display: flex;
@@ -186,6 +188,7 @@
   background-size: contain;
   height: 100%;
   text-align: center;
+  width: 100%;
 }
 #about_us {
   display: flex;
@@ -199,7 +202,7 @@
 }
 #aboutus1 {
   margin-top: 30px;
-  font-size: 36px;
+  font-size: 31px;
   color: rgb(36, 43, 104);
   letter-spacing: 0.9px;
 }
@@ -315,7 +318,7 @@
   text-align: center; /* Center align text */
   width: 42%;
   max-width: 100%;
-  padding: 143px 192px;
+  padding: 143px 150px;
 }
 #mentor3 {
   background-color: white;
@@ -329,12 +332,12 @@
   text-align: center; /* Center align text */
   width: 42%;
   max-width: 100%;
-  padding: 143px 192px;
+  padding: 143px 150px;
 }
 #mentor2 {
   background-image: url(img/Box\ Bacground.png);
   background-repeat: no-repeat;
-  padding: 143px 192px;
+  padding: 143px 150px;
   background-size: contain;
   width: 42%;
   max-width: 100%;
@@ -495,12 +498,12 @@
 #footer {
   background-image: url(img/Footer\ BG.png);
   background-repeat: no-repeat;
-  background-size: cover; /* Đảm bảo hình nền luôn bao phủ toàn bộ khu vực */
+  background-size: auto; /* Đảm bảo hình nền luôn bao phủ toàn bộ khu vực */
   background-position: center; /* Đặt hình nền ở giữa */
-  width: 100%;
+  width: auto;
   padding-top: 90px;
   height: auto; /* Để chiều cao tự động điều chỉnh theo nội dung */
-  min-height: 200px; /* Đặt chiều cao tối thiểu để đảm bảo footer luôn đủ cao, bạn có thể điều chỉnh giá trị này */
+  /* min-height: 200px; Đặt chiều cao tối thiểu để đảm bảo footer luôn đủ cao, bạn có thể điều chỉnh giá trị này */
   box-sizing: border-box; /* Đảm bảo padding và border được tính vào chiều rộng và chiều cao tổng thể */
 }
 #footer1 {

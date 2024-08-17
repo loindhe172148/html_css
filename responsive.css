@@ -1,13 +1,37 @@
 @media only screen and (min-width: 1024px) {
   #footer {
-    background-size: contain;
+    background-size: 100% 100%;
     padding-bottom: 100px;
+  }
+  #main_header {
+    margin-left: 10px;
+  }
+  #box_section p {
+    font-size: 14px;
+  }
+  #aboutus1 {
+    font-size: 28px;
+  }
+  #content {
+    margin-left: 10px;
+  }
+  #mentor1 {
+    padding: 143px 100px;
+  }
+  #mentor3 {
+    padding: 143px 100px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   #site_header {
     display: block;
     align-items: center;
+  }
+  #professsional h2 {
+    font-size: 30px;
+  }
+  #professsional p {
+    font-size: 15px;
   }
   #main_logo {
     display: flex;
@@ -116,6 +140,7 @@
   }
   #footer {
     padding-bottom: 77px;
+    background-size: 100% 100%;
   }
   #footer2 {
     font-size: 11px;
@@ -197,8 +222,25 @@
   #box_section {
     display: block;
   }
+  #box_section {
+    flex-direction: column; /* Xếp chồng các hộp theo chiều dọc trên màn hình nhỏ */
+    align-items: center;
+  }
+  #left,
+  #mid,
+  #right {
+    padding: 50px; /* Giảm padding hơn nữa cho màn hình nhỏ */
+  }
   #box_section img {
     width: 30%;
+    height: auto;
+  }
+  #box_section h1 {
+    font-size: 12px;
+  }
+  #box_section p {
+    font-size: 9px;
+    padding-top: 0px;
   }
   #about_us {
     text-align: center;
@@ -333,6 +375,7 @@
   }
   #footer1 {
     display: block;
+    /* background-size: 100% 100%; */
   }
   #end_footer {
     display: flex;
@@ -349,5 +392,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  #footer {
+    background-size: 100% 100%;
   }
 }
