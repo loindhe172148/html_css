@@ -1,0 +1,75 @@
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #333;
+}
+* {
+  box-sizing: inherit;
+}
+html {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+}
+.grid1 {
+  flex: 10%;
+}
+.grid2 {
+  flex: 20%;
+}
+.grid3 {
+  flex: 30%;
+}
+.grid4 {
+  flex: 40%;
+}
+.grid5 {
+  flex: 50%;
+}
+.grid6 {
+  flex: 60%;
+}
+.grid7 {
+  flex: 70%;
+}
+.grid8 {
+  flex: 80%;
+}
+.grid9 {
+  flex: 90%;
+}
+.grid10 {
+  flex: 100%;
+}
+.grid15 {
+  flex: 15%;
+}
+.grid25 {
+  flex: 25%;
+}
+.grid35 {
+  flex: 35%;
+}
+.grid45 {
+  flex: 45%;
+}
+.grid55 {
+  flex: 55%;
+}
+.grid65 {
+  flex: 65%;
+}
+.grid75 {
+  flex: 75%;
+}
+.grid85 {
+  flex: 85%;
+}
+.grid95 {
+  flex: 95%;
+}
+.grid05 {
+  flex: 5%;
+}

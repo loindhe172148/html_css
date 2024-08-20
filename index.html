@@ -14,49 +14,65 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
-    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="base.css" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="responsive.css" />
   </head>
   <body>
     <!-- slider -->
-    <div id="slider">
+    <div class="slider" id="slider">
       <!-- slider header -->
-      <div id="site_header">
-        <div id="main_logo">
+      <div class="site_header">
+        <div class="main_logo grid3">
           <img src="img/Main Logo.png" alt="Logo" />
         </div>
-        <div id="main_menu">
-          <button id="menu_toggle">Menu</button>
-          <ul id="nav">
-            <a id="home_1" href="">Home+</a>
-            <a class="home_2" href="">About</a>
-            <a class="home_2" href="">Service</a>
-            <a class="home_2" href="">Gallery</a>
-            <a class="home_2" href="">Blog</a>
+        <div class="main_menu grid45" >
+          <button class="menu-toggle">Menu</button>
+          <ul class="menu">
+            <li>
+              <a class="home_1" href="">Home+</a>
+            </li>
+            <li>
+              <a class="home_2" href="">About</a>
+            </li>
+            <li>
+              <a class="home_3" href="">Service</a>
+            </li>
+            <li>
+              <a class="home_4" href="">Gallery</a>
+            </li>
+            <li>
+              <a class="home_5" href="">Blog</a>
+            </li>
           </ul>
         </div>
-        <div id="contact_button">
+        <div class="contact_button grid25">
           <a href="2">Contact</a>
         </div>
       </div>
       <!-- end slider header  -->
 
       <!-- main header -->
-      <div id="main_header">
-        <div>
-          <h1 id="clinic">
-            Clinic & beauty<br />
-            consultant
-          </h1>
-          <p id="noteclinic">
-            It is a long established fact that a reader will be<br />
-            by the readable content of a page.
-          </p>
-          <a id="moredetail" href="MoreDetails">More Details</a>
+      <div class="main_header">
+        <div class="header_left">
+          <div>
+            <h1 class="clinic">
+              Clinic & beauty<br />
+              consultant
+            </h1>
+          </div>
+          <div>
+            <p class="noteclinic">
+              It is a long established fact that a reader will be<br />
+              by the readable content of a page.
+            </p>
+          </div>
+          <div class="moredetail">
+            <a href="MoreDetails">More Details</a>
+          </div>
         </div>
-        <div>
-          <img id="anh2" src="img/Frame 1.png" alt="" />
+        <div class="header_right">
+          <img class="anh2" src="img/Frame 1.png" alt="" />
         </div>
       </div>
     </div>
@@ -69,39 +85,50 @@
     <div id="content">
       <!-- core servies -->
       <div id="core_servies">
-        <h1 id="mainservices">Main Services</h1>
-        <h2 id="learn">
-          Learn services to focus<br />
-          on your beauty
-        </h2>
-        <p id="porta">
-          Porta rhoncus orci condimentum vitae lobortis eu dignissim non massa.
-          Non parturient<br />
-          a met, feugiat tellus sagittis, scelerisque eget nulla turpis.
-        </p>
-        <div id="box_section">
-          <!-- action img -->
-          <div id="left">
-            <img src="img/Animation1 (1).png" alt="" />
-            <h1>Beauty consultation</h1>
-            <p>
-              Non parturient amet , feugiat <br />
-              tellus sagittis , scelerisque eget <br />
-              nulla turpis.
-            </p>
+        <div>
+          <h1 id="mainservices">Main Services</h1>
+        </div>
+        <div>
+          <h2 id="learn">
+            Learn services to focus<br />
+            on your beauty
+          </h2>
+        </div>
+        <div>
+          <p id="porta">
+            Porta rhoncus orci condimentum vitae lobortis eu dignissim non
+            massa. Non parturient<br />
+            amet, feugiat tellus sagittis, scelerisque eget nulla turpis.
+          </p>
+        </div>
+        <div class="container_box">
+          <div class="box_left grid25">
+            <div>
+              <img src="img/Animation1 (1).png" alt="" />
+            </div>
+            <div>
+              <h2>Beauty consultation</h2>
+            </div>
+            <div>
+              <p>
+                Non parturient amet, feugiat <br />
+                tellus sagittis, scelerisque eget <br />
+                nulla turpis.
+              </p>
+            </div>
           </div>
-          <div id="mid">
+          <div class="box_mid grid25">
             <img src="img/Animation2.png" alt="" />
-            <h1>Skin treatments</h1>
+            <h2>Skin treatments</h2>
             <p>
-              Non parturient amet , feugiat <br />
-              tellus sagittis , scelerisque eget <br />
+              Non parturient amet, feugiat <br />
+              tellus sagittis, scelerisque eget <br />
               nulla turpis.
             </p>
           </div>
-          <div id="right">
+          <div class="box_right grid25">
             <img src="img/Animation3.png" alt="" />
-            <h1>Beauty product</h1>
+            <h2>Beauty product</h2>
             <p>
               Non parturient amet, feugiat <br />
               tellus sagittis, scelerisque eget <br />
@@ -144,127 +171,132 @@
         </div>
       </div>
       <!-- end about us -->
-      <!-- professional teams -->
-      <div id="professional_teams">
-        <!-- professional -->
-        <div id="professsional">
-          <h1>Professional Teams</h1>
-          <h2>The Professional expert</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam.
-          </p>
-        </div>
-        <!-- end professional -->
-        <!-- mentor -->
-        <div id="mentor_3">
-          <div id="mentor1">
-            <img id="img1" src="img/unsplash_pTrhfmj2jDA.png" alt="" />
-            <h1>Surgeon</h1>
-            <h2>Briyan Nevalli</h2>
-            <p>
-              Lorem ipsum dolor sit amet, <br />
-              consectetur adipiscing elit ut <br />aliquam, purus sit
-            </p>
-            <div class="lienlac">
-              <img src="img/Social Media (1).png" alt="" />
-            </div>
-          </div>
-          <div id="mentor2">
-            <img id="img2" src="img/unsplash_FVh_yqLR9eA.png" alt="" />
-            <h1>Dermatologist</h1>
-            <h2>Bella sebastian</h2>
-            <p>
-              Lorem ipsum dolor sit amet, <br />
-              consectetur adipiscing elit ut <br />aliquam, purus sit
-            </p>
-            <div class="lienlac">
-              <img src="img/Social Media (1).png" alt="" />
-            </div>
-          </div>
-          <div id="mentor3">
-            <img id="img3" src="img/unsplash_mEZ3PoFGs_k.png" alt="" />
-            <h1>Stylist expert</h1>
-            <h2>Lilly Adams</h2>
-            <p>
-              Lorem ipsum dolor sit amet, <br />
-              consectetur adipiscing elit ut <br />aliquam, purus sit
-            </p>
-            <div class="lienlac">
-              <img src="img/Social Media (1).png" alt="" />
-            </div>
-          </div>
-        </div>
-        <!-- end mentor -->
-      </div>
     </div>
     <!-- end content -->
-    <!-- contact -->
-    <div id="contact">
-      <div>
-        <img src="img/Contact Animations.png" alt="" />
-      </div>
-      <!-- text box -->
-      <div id="text_box">
-        <h1 id="contactus">Contact us</h1>
-        <h2 id="sendyour">
-          Send your Inquiry to <br />
-          our expert team
-        </h2>
-        <p id="loremipsum">Lorem ipsum dolor sit amet nulla turapis tellus.</p>
-        <form action="" id="action">
-          <input
-            id="first"
-            type="text"
-            name="FirstName"
-            placeholder="First Name"
-          />
-          <input
-            id="last"
-            type="text"
-            name="LastName"
-            placeholder="Last Name"
-          />
-          <br />
-          <input
-            id="email"
-            type="text"
-            name="EmailAddress"
-            placeholder="Email Address"
-          /><br />
-          <input
-            id="subject"
-            type="text"
-            name="SubjectMessage"
-            placeholder="Subject message"
-          /><br />
-          <input
-            id="your"
-            type="text"
-            name="YourInquiryHere"
-            placeholder="Your inquiry here"
-          /><br />
-          <input id="submit" type="submit" value="Send Message" />
-        </form>
-      </div>
-      <!-- end text box -->
+    <!-- professional teams -->
+    <!-- professional -->
+    <div id="professsional">
+      <h1>Professional Teams</h1>
+      <h2>The Professional expert</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam.</p>
     </div>
-    <!-- end contact -->
+    <!-- end professional -->
+    <div id="professional_teams">
+      <!-- mentor -->
+      <div id="mentor_3">
+        <div id="mentor1" class="grid3">
+          <img id="img1" src="img/unsplash_pTrhfmj2jDA.png" alt="" />
+          <h1>Surgeon</h1>
+          <h2>Briyan Nevalli</h2>
+          <p>
+            Lorem ipsum dolor sit amet, <br />
+            consectetur adipiscing elit ut <br />aliquam, purus sit
+          </p>
+          <div class="lienlac">
+            <img src="img/Social Media (1).png" alt="" />
+          </div>
+        </div>
+        <div id="mentor2" class="grid3">
+          <img id="img2" src="img/unsplash_FVh_yqLR9eA.png" alt="" />
+          <h1>Dermatologist</h1>
+          <h2>Bella sebastian</h2>
+          <p>
+            Lorem ipsum dolor sit amet, <br />
+            consectetur adipiscing elit ut <br />aliquam, purus sit
+          </p>
+          <div class="lienlac">
+            <img src="img/Social Media (1).png" alt="" />
+          </div>
+        </div>
+        <div id="mentor3" class="grid3">
+          <img id="img3" src="img/unsplash_mEZ3PoFGs_k.png" alt="" />
+          <h1>Stylist expert</h1>
+          <h2>Lilly Adams</h2>
+          <p>
+            Lorem ipsum dolor sit amet, <br />
+            consectetur adipiscing elit ut <br />aliquam, purus sit
+          </p>
+          <div class="lienlac">
+            <img src="img/Social Media (1).png" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- end mentor -->
+
+      <!-- contact -->
+      <div id="contact">
+        <div class="grid5">
+          <img src="img/Contact Animations.png" alt="" />
+        </div>
+        <!-- text box -->
+        <div id="text_box" class="grid5">
+          <h1 id="contactus">Contact us</h1>
+          <h2 id="sendyour">
+            Send your Inquiry to <br />
+            our expert team
+          </h2>
+          <p id="loremipsum">
+            Lorem ipsum dolor sit amet nulla turapis tellus.
+          </p>
+          <form action="" id="action">
+            <input
+              id="first"
+              type="text"
+              name="FirstName"
+              placeholder="First Name"
+            />
+            <input
+              id="last"
+              type="text"
+              name="LastName"
+              placeholder="Last Name"
+            />
+            <br />
+            <input
+              id="email"
+              type="text"
+              name="EmailAddress"
+              placeholder="Email Address"
+            /><br />
+            <input
+              id="subject"
+              type="text"
+              name="SubjectMessage"
+              placeholder="Subject message"
+            /><br />
+            <input
+              id="your"
+              type="text"
+              name="YourInquiryHere"
+              placeholder="Your inquiry here"
+            /><br />
+            <input id="submit" type="submit" value="Send Message" />
+          </form>
+        </div>
+        <!-- end text box -->
+      </div>
+      <!-- end contact -->
+    </div>
     <!-- footer -->
     <div id="footer">
       <!-- site footer -->
       <div id="footer1">
-        <div>
+        <div class="grid5 a1">
           <img id="anhlogocuoi" src="img/Footer Logo.png" alt="" />
           <p id="footer2">
             <strong> Beautice</strong> is a Beauty Clinic WordPress Theme.
           </p>
           <p class="footer3">Baker Steet 101, NY, United States.</p>
           <div id="diachilienlac">
-            <p class="footer3">+521 569 8966.</p>
-            <p class="footer3"><u> mail@company.com.</u></p>
+            <div>
+              <p>+521 569 8966.</p>
+            </div>
+            <div>
+              <p><u> mail@company.com.</u></p>
+            </div>
           </div>
         </div>
-        <div>
+        <div class="grid2 a1">
           <p class="abcd">Pages</p>
           <ul class="ef">
             <li><p>Home</p></li>
@@ -274,7 +306,7 @@
             <li><p>Team</p></li>
           </ul>
         </div>
-        <div>
+        <div class="grid3 a1">
           <p class="abcde">Informations</p>
           <ul class="efg">
             <li><p>Terms & conditions</p></li>
@@ -294,8 +326,12 @@
         </button>
       </div>
       <div id="end_footer">
-        <img class="anhcuoi" src="img/Social Media.png" alt="" />
-        <p id="aaaaa">&copy; AltDesain Studio 2021 - All right reserved.</p>
+        <div class="grid5">
+          <img class="anhcuoi" src="img/Social Media.png" alt="" />
+        </div>
+        <div class="grid5">
+          <p id="aaaaa">&copy; AltDesain Studio 2021 - All right reserved.</p>
+        </div>
       </div>
     </div>
     <!-- end footer -->

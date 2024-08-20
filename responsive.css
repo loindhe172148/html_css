@@ -1,37 +1,75 @@
-@media only screen and (min-width: 1024px) {
-  #footer {
-    background-size: 100% 100%;
-    padding-bottom: 100px;
+@media only screen and (max-width: 1439px) {
+  .site_header a {
+    margin: 8px;
   }
-  #main_header {
-    margin-left: 10px;
+}
+@media only screen and (max-width: 1243px) {
+  #watchvideo {
+    margin-left: 0px;
   }
-  #box_section p {
-    font-size: 14px;
+}
+@media only screen and (max-width: 1168px) {
+  #watchvideo {
+    font-size: 11px;
   }
-  #aboutus1 {
-    font-size: 28px;
+  #learnmore {
+    font-size: 11px;
   }
-  #content {
-    margin-left: 10px;
-  }
-  #mentor1 {
-    padding: 143px 100px;
-  }
-  #mentor3 {
-    padding: 143px 100px;
+  #playbutton {
+    width: 90%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  #site_header {
-    display: block;
-    align-items: center;
+  .site_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontally center items */
+    justify-content: center; /* Vertically center items */
+    text-align: center; /* Center align text */
+  }
+  .main_logo img {
+    margin-left: 17px;
+    width: 86%;
+  }
+  .anh2 {
+    padding-left: 0px;
+  }
+  .clinic {
+    font-size: 35px;
+    margin-top: 0px;
+  }
+  .header_left {
+    text-align: center;
+  }
+  .noteclinic {
+    font-size: 15px;
+  }
+  #learn {
+    font-size: 25px;
+  }
+  #porta {
+    font-size: 14px;
+  }
+  .container_box {
+    padding: 0px;
+  }
+  .box_left h2,
+  .box_mid h2,
+  .box_right h2 {
+    font-size: 16px;
+    padding-top: 5px;
+  }
+  .box_left p,
+  .box_mid p,
+  .box_right p {
+    font-size: 11px;
   }
   #professsional h2 {
-    font-size: 30px;
+    font-size: 26px;
   }
   #professsional p {
     font-size: 15px;
+    margin-top: 20px;
   }
   #main_logo {
     display: flex;
@@ -66,7 +104,7 @@
     margin-left: 10px;
   }
   #aboutus1 {
-    font-size: 27px;
+    font-size: 25px;
     line-height: 1;
     text-align: center;
   }
@@ -89,43 +127,57 @@
   }
   #watchvideo {
     font-size: 10px;
+    margin-right: 0px;
   }
   #mentor_3 {
-    display: block;
+    padding-top: 0px;
+    padding: 0 50px;
   }
-  #img1 {
-    width: 20%;
+  #img1,
+  #img2,
+  #img3 {
+    width: 62%;
+    max-width: 100%;
   }
-  .lienlac {
-    width: 39%;
+  .box_left,
+  .box_mid,
+  .box_right {
+    block-size: 46vw;
   }
-  #mentor2 {
-    padding: 164px 20px; /* Reduce padding for smaller screens */
-    width: 100%; /* Increase width to make better use of available space */
-    background-size: cover; /* Adjust background size */
+  #about_us {
+    margin-top: 40px;
+  }
+  .main_header {
+    margin-top: 100px;
+  }
+  #sliderbt {
+    margin-top: 50px;
+  }
+  #core_servies {
+    margin-top: 50px;
+  }
+  #mentor_3 h1 {
+    margin-top: 30px;
+    font-size: 13px;
+  }
+  #mentor_3 h2 {
+    font-size: 16px;
+  }
+  #mentor_3 p {
+    font-size: 7px;
+  }
+  #professsional {
+    margin-top: 50px;
     margin-bottom: 50px;
   }
-  #mentor1 {
-    padding: 164px 20px; /* Reduce padding for smaller screens */
-    width: 100%; /* Increase width to make better use of available space */
-    background-size: cover; /* Adjust background size */
-    padding-top: 0px;
+  .lienlac img {
+    width: 100%;
+    margin-top: 5px;
   }
+  #mentor1,
+  #mentor2,
   #mentor3 {
-    padding: 164px 20px; /* Reduce padding for smaller screens */
-    width: 100%; /* Increase width to make better use of available space */
-    background-size: cover; /* Adjust background size */
-  }
-
-  #img2 {
-    width: 20%; /* Adjust image size for smaller screens */
-  }
-
-  #img2 {
-    width: 20%;
-  }
-  #img3 {
-    width: 20%;
+    block-size: 44vw;
   }
   #contact {
     display: flex;
@@ -134,188 +186,107 @@
     justify-content: center; /* Vertically center items */
     text-align: center; /* Center align text */
     width: 100%;
+    padding-top: 0px;
+    gap: 0px;
+  }
+  #contact img {
+    padding-left: 0px;
+    padding-top: 0px;
   }
   #text_box {
     margin-top: 0px;
   }
   #footer {
-    padding-bottom: 77px;
-    background-size: 100% 100%;
+    padding-bottom: 145px;
+    background-size: 100% 70%;
+    margin-top: 50px;
+    padding-top: 120px;
   }
-  #footer2 {
-    font-size: 11px;
-  }
-  .footer3 {
-    font-size: 11px;
-  }
-  #anhlogocuoi {
-    width: 59%;
+  #footer1 {
+    padding-left: 0px;
+    padding-top: 80px;
   }
   .abcd {
-    font-size: 13px;
-  }
-  .ef {
-    font-size: 13px;
+    margin-top: 15px;
+    font-size: 17px;
   }
   .abcde {
-    font-size: 13px;
+    margin-top: 15px;
+    font-size: 17px;
+  }
+  #anhlogocuoi {
+    width: 50%;
+    margin-left: 80px;
+  }
+  #footer2 {
+    margin-left: 77px;
+  }
+  .footer3 {
+    margin-left: 77px;
+  }
+  #diachilienlac {
+    margin-left: 75px;
+    margin-top: 20px;
+  }
+  #diachilienlac p {
+    font-size: 12px;
+  }
+  .ef {
+    font-size: 15px;
   }
   .efg {
-    font-size: 13px;
+    font-size: 15px;
   }
-  #aaaaa {
-    font-size: 13px;
+  #button_row {
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  #end_footer {
+    margin-top: 0px;
+  }
+  #end_footer .anhcuoi {
+    margin-left: 70px;
+    margin-top: 0px;
+    width: 78%;
+  }
+  #end_footer #aaaaa {
+    text-align: right;
+    margin-right: 0px;
+    font-size: 11px;
   }
 }
 @media only screen and (max-width: 767px) {
-  #menu_toggle {
-    display: block;
-  }
-
-  #nav {
-    display: none;
-    position: absolute;
-    top: 50px;
-    left: 0;
-    width: 100%;
-    background-color: #f9f9f9;
-    text-align: center;
-  }
-
-  #nav li {
-    display: block;
-    margin: 10px 0;
-  }
-  #site_header {
-    display: block;
+  .site_header {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-  }
-  #main_logo {
-    display: flex;
-    justify-content: center; /* Căn giữa logo theo chiều ngang */
-    margin-bottom: 50px;
-  }
-  #main_logo img {
-    width: 50%;
-    max-width: 100%;
-  }
-  #main_menu {
-    display: flex;
-    justify-content: center; /* Căn giữa logo theo chiều ngang */
-    margin-bottom: 50px;
-  }
-  #contact img {
-    padding-top: 0px;
-  }
-  #contact_button {
-    display: flex;
-    justify-content: center; /* Căn giữa logo theo chiều ngang */
-    margin-bottom: 50px;
-  }
-  #main_header {
-    display: block;
-    text-align: center;
-  }
-  #anh2 {
-    margin-top: 50px;
-  }
-  #box_section {
-    display: block;
-  }
-  #box_section {
-    flex-direction: column; /* Xếp chồng các hộp theo chiều dọc trên màn hình nhỏ */
-    align-items: center;
-  }
-  #left,
-  #mid,
-  #right {
-    padding: 50px; /* Giảm padding hơn nữa cho màn hình nhỏ */
-  }
-  #box_section img {
-    width: 30%;
-    height: auto;
-  }
-  #box_section h1 {
-    font-size: 12px;
-  }
-  #box_section p {
-    font-size: 9px;
-    padding-top: 0px;
-  }
-  #about_us {
-    text-align: center;
-    display: block;
-  }
-  #aboutus1 {
-    font-size: 27px;
-    line-height: 1;
-    text-align: center;
-  }
-  #aboutus2 {
-    font-size: 8px;
-  }
-  #aboutus3 {
-    font-size: 8px;
-  }
-  #aboutus4 {
-    margin-top: 20px;
     justify-content: center;
+    text-align: center;
   }
-  #learnmore {
-    padding: 8px 25px;
-    font-size: 10px;
+  .main_logo img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 0px;
+    width: 100%;
   }
-  #playbutton {
-    width: 69%;
-  }
-  #watchvideo {
-    font-size: 10px;
-  }
-  #professsional h2 {
-    font-size: 20px;
+  .container_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontally center items */
+    justify-content: center; /* Vertically center items */
+    text-align: center; /* Center align text */
+    padding-left: 50px;
+    padding-right: 50px;
   }
   #mentor_3 {
-    display: block;
-  }
-  #img1 {
-    width: 20%;
-  }
-  .lienlac {
-    width: 39%;
-  }
-  #mentor2 {
-    padding: 164px 20px; /* Reduce padding for smaller screens */
-    width: 100%; /* Increase width to make better use of available space */
-    background-size: cover; /* Adjust background size */
-    margin-bottom: 50px;
-  }
-  #mentor1 {
-    padding: 164px 20px; /* Reduce padding for smaller screens */
-    width: 100%; /* Increase width to make better use of available space */
-    background-size: cover; /* Adjust background size */
-  }
-  #mentor3 {
-    padding: 164px 20px; /* Reduce padding for smaller screens */
-    width: 100%; /* Increase width to make better use of available space */
-    background-size: cover; /* Adjust background size */
-    padding-bottom: 0px;
-  }
-  #text_box h2 {
-    font-size: 26px;
-    line-height: 39px;
-  }
-  #text_box p {
-    font-size: 10px;
-  }
-  #img2 {
-    width: 20%; /* Adjust image size for smaller screens */
-  }
-
-  #img2 {
-    width: 20%;
-  }
-  #img3 {
-    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontally center items */
+    justify-content: center; /* Vertically center items */
+    text-align: center; /* Center align text */
   }
   #contact {
     display: flex;
@@ -323,46 +294,153 @@
     align-items: center; /* Horizontally center items */
     justify-content: center; /* Vertically center items */
     text-align: center; /* Center align text */
-    width: 100%;
   }
-  #text_box {
-    margin-top: 0px;
+  #footer1 {
+    padding-left: 0px;
+    padding-top: 50px;
+    display: flex;
+    align-items: center; /* Horizontally center items */
+    justify-content: center; /* Vertically center items */
+    text-align: center; /* Center align text */
   }
-  #footer {
-    padding-bottom: 77px;
-  }
-  #footer2 {
-    font-size: 11px;
-  }
-  .footer3 {
-    font-size: 11px;
-  }
-  #anhlogocuoi {
-    width: 59%;
-  }
-  .abcd {
-    font-size: 13px;
-  }
-  .ef {
-    font-size: 13px;
-  }
-  .abcde {
-    font-size: 13px;
-  }
-  .efg {
-    font-size: 13px;
-  }
-  #aaaaa {
-    font-size: 13px;
-  }
-  #action {
+  .main_header {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; /* Horizontally center items */
+    justify-content: center; /* Vertically center items */
+    text-align: center; /* Center align text */
+    margin-top: 50px;
+    padding-left: 0px;
+  }
+  .clinic {
+    font-size: 35px;
+    line-height: 1.22;
+    color: rgb(9, 17, 86);
+    letter-spacing: 0px;
+    margin-bottom: 0px;
+    margin-top: 80px;
+  }
+  .noteclinic {
+    font-size: 13px;
+  }
+  .main_menu {
+    display: contents;
+  }
+  #about_us {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontally center items */
+    justify-content: center; /* Vertically center items */
+    text-align: center; /* Center align text */
+  }
+  .anh2 {
+    padding-left: 0px;
+    margin-top: 80px;
+  }
+  #sliderbt {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-top: 80px;
+  }
+  #core_servies {
+    margin-top: 80px;
+  }
+  #learn {
+    font-size: 25px;
+  }
+  #porta {
+    font-size: 13px;
+  }
+  .box_left img,
+  .box_mid img,
+  .box_right img {
+    padding-top: 20px;
+  }
+  .box_left h2,
+  .box_mid h2,
+  .box_right h2 {
+    font-size: 14px;
+    padding-top: 0px;
+  }
+  .box_left p,
+  .box_mid p,
+  .box_right p {
+    font-size: 11px;
+  }
+  #aboutus1 {
+    font-size: 16px;
+  }
+  #aboutus2 {
+    font-size: 9px;
+  }
+  #aboutus3 {
+    font-size: 9px;
+  }
+  #watchvideo {
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 7px;
+  }
+  #learnmore {
+    padding: 13px 35px 13px 35px;
+    font-size: 7px;
+  }
+  .box_left,
+  .box_mid,
+  .box_right {
+    block-size: 25vw;
+    inline-size: 40vh;
+  }
+  #aboutus4 {
+    margin-top: 25px;
+  }
+  #professsional h1 {
+    font-size: 12px;
+  }
+  #professsional h2 {
+    font-size: 20.5px;
+  }
+  #professsional p {
+    font-size: 10px;
+  }
+  #mentor1,
+  #mentor2,
+  #mentor3 {
+    block-size: 25vw;
+    inline-size: 38vh;
+  }
+  #mentor_3 {
+    padding: 0px 28px;
+    padding-top: 20px;
+    gap: 54px;
+  }
+  #contact {
+    padding-top: 0px;
+    gap: 20px;
+  }
+  #contact img {
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+  #text_box h2 {
+    color: rgb(9, 17, 86);
+    font-size: 20px;
+    margin-top: 7px;
+    line-height: 27px;
+    letter-spacing: -0.3px;
+  }
+  #text_box p {
+    font-size: 7px;
   }
   #first {
     margin-right: 0px;
     margin-bottom: 40px;
+    padding: 21px 15px 21px 25px;
+  }
+  #last {
+    padding: 21px 15px 21px 25px;
   }
   #email {
     padding: 21px 15px 21px 25px;
@@ -373,27 +451,122 @@
   #your {
     padding: 21px 15px 100px 25px;
   }
-  #footer1 {
-    display: block;
-    /* background-size: 100% 100%; */
-  }
-  #end_footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  #aaaaa p {
-    font-size: 15px;
-  }
-  #end_footer .anhcuoi {
+  #about_us {
     margin-left: 0px;
   }
-  #bbbbb img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
   #footer {
-    background-size: 100% 100%;
+    padding-bottom: 30px;
+    background-size: 100% 80%;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  #footer1 {
+    padding-left: 0px;
+  }
+  .abcd {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 8px;
+    margin-left: -5px;
+  }
+  .abcde {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 8px;
+    margin-left: -5px;
+  }
+  #anhlogocuoi {
+    width: 55%;
+    margin-left: 37px;
+  }
+  #footer2 {
+    font-size: 8px;
+    margin-top: 0px;
+    margin-left: 34px;
+  }
+  .footer3 {
+    font-size: 8px;
+    margin-top: 0px;
+    margin-left: 38px;
+  }
+  #diachilienlac {
+    display: block;
+    margin-top: 0px;
+    margin-left: 34px;
+  }
+  #diachilienlac p {
+    font-size: 8px;
+  }
+  .ef {
+    font-size: 8px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .efg {
+    font-size: 8px;
+    margin-top: 0px;
+    margin-left: -20px;
+  }
+  #button_row {
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  #end_footer {
+    margin-top: 0px;
+  }
+  #end_footer .anhcuoi {
+    margin-left: 70px;
+    margin-top: 0px;
+    width: 78%;
+  }
+  #end_footer #aaaaa {
+    text-align: right;
+    margin-right: 0px;
+    font-size: 10px;
+  }
+  .a1 {
+    margin-top: 30px;
+  }
+  #button_row {
+    margin-right: 10px;
+  }
+  #bbbbb {
+    width: 24px;
+  }
+  #end_footer {
+    margin-top: 0px;
+    display: block;
+  }
+  #end_footer .anhcuoi {
+    margin-left: 35px;
+    margin-top: 0px;
+    width: 61%;
+  }
+  #end_footer #aaaaa {
+    text-align: right;
+    margin-right: 0px;
+    font-size: 8px;
+    padding-bottom: 20px;
+  }
+  .main_menu ul {
+    display: block;
+  }
+  .menu {
+    display: none;
+    flex-direction: column;
+  }
+
+  .menu-toggle {
+    display: block;
+    border-radius: 40px;
+    background-color: rgb(255, 100, 174);
+  }
+
+  .main_menu li {
+    margin-left: 0;
+  }
+
+  .main_menu a {
+    margin-left: 0;
   }
 }
