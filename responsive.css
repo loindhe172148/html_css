@@ -20,6 +20,9 @@
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #background_footer{
+    background-position-y: 77.5%;
+  }
   .site_header {
     display: flex;
     flex-direction: column;
@@ -568,5 +571,8 @@
 
   .main_menu a {
     margin-left: 0;
+  }
+  #background_footer{
+    background-position-y: 85.4%;
   }
 }
